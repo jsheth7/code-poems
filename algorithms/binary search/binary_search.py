@@ -6,11 +6,11 @@
 # If not found, return -1.
 #
 # Algorithmic complexity for binary search is O(log n)
-# Example: if you're searching a list of 25 items, the maximum number of guesses would be log(25, 2) = 4.74.
+# Example: if you're searching a list of 25 items, the maximum number of guesses would be math.log(25, 2) = 4.74.
 # Rounding up, we get a maximum of 5 guesses
 #
 # Similarly, to search through 1 million items, it will take a maximum of 20 guesses:
-# log(1000000, 2) = 19.93 . Woah!
+# math.log(1000000, 2) = 19.93 . Woah!
 
 # Try uncommenting the various options at the end. Are the number of actual guesses always different?
 

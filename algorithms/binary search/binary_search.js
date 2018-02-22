@@ -81,4 +81,6 @@ var primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61
 var matchedIndex = binarySearch(primes, 89);
 //var matchedIndex = binarySearch(primes, 2);
 
-console.log("matchedIndex: " + matchedIndex);
+console.log("matched index: " + matchedIndex);
+console.log("matched value: " + primes[matchedIndex]);
+
