@@ -151,13 +151,13 @@ class HeaderParser {
         Sample header values are below:
         for="_mdn"
 
-        # case insensitive
+        // case insensitive
         For="[2001:db8:cafe::17]:4711"
 
-        # separated by semicolon
+        // separated by semicolon
         for=192.0.2.60; proto=http; by=203.0.113.43
 
-        # multiple values can be appended using a comma
+        // multiple values can be appended using a comma
         for=192.0.2.43, for=198.51.100.17
      *
      * @return array ['for' => [], 'proto' => [], 'by' => []]
