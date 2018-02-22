@@ -148,17 +148,17 @@ class HeaderParser {
     /**
      * Given the value of a "Forwarded" header, parse it into an array of constituent parts.
      * @param string $headerValue Header value
-        Sample header values are below:
-        for="_mdn"
-
-        // case insensitive
-        For="[2001:db8:cafe::17]:4711"
-
-        // separated by semicolon
-        for=192.0.2.60; proto=http; by=203.0.113.43
-
-        // multiple values can be appended using a comma
-        for=192.0.2.43, for=198.51.100.17
+     *   Sample header values are below:
+     *   for="_mdn"
+     *
+     *   // case insensitive
+     *   For="[2001:db8:cafe::17]:4711"
+     *
+     *   // separated by semicolon
+     *   for=192.0.2.60; proto=http; by=203.0.113.43
+     *
+     *   // multiple values can be appended using a comma
+     *   for=192.0.2.43, for=198.51.100.17
      *
      * @return array ['for' => [], 'proto' => [], 'by' => []]
      */
